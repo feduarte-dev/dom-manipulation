@@ -11,6 +11,10 @@ main , section {
   background-color: yellow;
 }
 
+.corVerde {
+  background-color:rgb(76, 164, 109)
+}
+
 .main-content .center-content {
   background-color: red;
   width: 50%;
