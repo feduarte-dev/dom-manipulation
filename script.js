@@ -18,3 +18,13 @@ ex4[0].innerHTML = 'Desafio - JavaScript';
 // Exercício 5
 const ex5 = document.querySelector('.center-content p');
 ex5.innerHTML = 'TEXTO PADRÃO DO NOSSO SITE'
+
+// Exercício 6
+const ex6 = document.querySelectorAll('.center-content p');
+let ex7 = document.querySelector("footer p")
+let separacao  = ' ';
+for (let index = 0; index < ex6.length; index+=1){
+let elemento = document.createTextNode(' ' + ex6[index].innerHTML)
+ex7.appendChild(elemento)
+}
+
